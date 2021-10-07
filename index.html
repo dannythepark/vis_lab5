@@ -1,0 +1,33 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 5: Update Pattern</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js" defer=""></script>
+  </head>
+
+  <body>
+    <h1>Coffee House Chains</h1>
+    <p>
+      A ranking of selected leading coffee house chains worldwide
+    </p>
+    <div class="row">
+      <div class="column">
+        <label for="group">Group By</label>
+        <select id="group">
+          <option value="stores">Stores worldwide</option>
+		      <option value="revenue">Revenue in billion U.S. dollars</option>
+        </select>      
+      </div>
+    <div class="column">
+      <div class="sorting">
+        <button class="sorting"></i> Sort  
+          </div>        
+        </div>
+    </div>
+    <div class="graph"></div>
+</body>
